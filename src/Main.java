@@ -35,7 +35,7 @@ public class Main {
             arrFirst[0] = 1;
             arrFirst[1] = 2;
             arrFirst[2] = 3;
-            for (int i = 0; i < arrFirst.length - 1; i++) {
+            for (int i = 0; i < arrFirst.length; i++) {
                 System.out.print(arrFirst[i] + ", ");
             }
                 System.out.print(arrFirst[arrFirst.length - 1]);
@@ -43,7 +43,7 @@ public class Main {
             // массив, хранящий числа с плавающей точкой
             System.out.println(" ");
             float[] arrSecond = {1.57f, 7.654f, 9.986f};
-            for (int i = 0; i < arrSecond.length - 1; i++) {
+            for (int i = 0; i < arrSecond.length; i++) {
                 System.out.print(arrSecond[i] + ", ");
             }
                 System.out.println(arrSecond[arrSecond.length - 1]);
@@ -53,7 +53,7 @@ public class Main {
             arrThird[31] = 1;
             arrThird[32] = 3;
             arrThird[33] = 0;
-            for (int i = 0; i < arrThird.length - 1; i++) {
+            for (int i = 0; i < arrThird.length; i++) {
                 System.out.print(arrThird[i] + ", ");
             }
                 System.out.println(arrThird[arrThird.length - 1]);
